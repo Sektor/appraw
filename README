@@ -1,0 +1,15 @@
+appraw is a tool for patching .desktop files to make apps be launched
+via fsoraw (to prevent automatic screen dimming and suspending).
+
+It can be used in various distribution enhancing scripts or just to
+make freshly installed app fsoraw-enabled.
+
+See 'appraw --help' for details.
+
+Example usage:
+
+  appraw -i CPU,Display tangogps
+  appraw -i Display tangogps
+  appraw -d mokomaze
+  appraw -r mokomaze
+
